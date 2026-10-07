@@ -35,3 +35,22 @@ I took on the role of Lead Cloud Security Engineer and built a Security as Code 
 | **Secrets Management** | Secrets are not written in plaintext |
 
 **Success criterion:** reduce the exposure window from **weeks to minutes**.
+
+## Implementation
+
+
+1. Create a monitored resource, an Azure storage account.
+![Create a Storage Account](https://github.com/ZaneleLM/Assets/blob/main/Screenshot%202026-10-07%20091303.png)
+
+2. Enable audit logging to capture all activity
+![Enable audit logging](https://github.com/ZaneleLM/Assets/blob/main/Screenshot%202026-10-07%20092010.png)
+![Enable audit logging](https://github.com/ZaneleLM/Assets/blob/main/Screenshot%202026-10-07%20092435.png)
+![Enable audit logging](https://github.com/ZaneleLM/Assets/blob/main/Screenshot%202026-10-07%20092454.png)
+
+3. Enable the Storage account to send logs to log analytics
+![loganalytics](https://github.com/ZaneleLM/Assets/blob/main/Screenshot%202026-10-07%20100438.png)
+
+4. 
+
+
+   
